@@ -2,11 +2,39 @@ plugins {
 //    id("com.android.application")
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id ("maven-publish")
 }
 
 android {
     namespace = "com.wd.foo"
     compileSdk = 34
+
+//    afterEvaluate {
+//        publishing {
+//            publications {
+//                release(MavenPublication) {
+//                    from components.release
+//                }
+//            }
+//        }
+
+//    afterEvaluate {
+//        publishing {
+//            publications {
+//
+//                release(MavenPublication) {
+//                    from components.release
+//                }
+//            }
+//        }
+//    }
+
+        publishing {
+            singleVariant("debug") {
+                withSourcesJar()
+            }
+        }
+
 
     defaultConfig {
 //        applicationId = "com.wd.foo"
