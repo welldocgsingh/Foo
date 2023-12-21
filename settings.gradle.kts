@@ -4,18 +4,29 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
         flatDir {
-            dirs ("libs")
+            dirs("libs")
         }
+        maven("https://jitpack.io")
+
+        maven("https://plugins.gradle.org/m2/")
 
     }
-
 }
+
+
+
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+
+
     repositories {
         google()
         mavenCentral()
         maven("https://jitpack.io")
+        maven("https://plugins.gradle.org/m2/")
+
     }
 }
 
