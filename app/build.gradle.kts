@@ -7,11 +7,7 @@ plugins {
     id("maven-publish")
 }
 
-parent?.allprojects {
-    repositories {
-        mavenLocal()
-    }
-}
+
 
 android {
     namespace = "com.wd.foo"

@@ -16,10 +16,7 @@ pluginManagement {
 
 
 dependencyResolutionManagement {
-//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
-
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 
     repositories {
         google()
@@ -33,5 +30,4 @@ dependencyResolutionManagement {
 rootProject.name = "Foo"
 include(":app")
 include(":Modules")
-
 include (":library")
