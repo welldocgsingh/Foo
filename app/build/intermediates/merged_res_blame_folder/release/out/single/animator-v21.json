@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/animator-v21/m3_appbar_state_list_animator.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/animator-v21/m3_appbar_state_list_animator.xml"
+    }
+]

@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wd</groupId>
   <artifactId>foo</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.3</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>
@@ -28,12 +28,6 @@
       <artifactId>kotlin-stdlib-jdk8</artifactId>
       <version>1.8.10</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.core</groupId>
-      <artifactId>core-ktx</artifactId>
-      <version>1.9.0</version>
-      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
@@ -65,6 +59,36 @@
     <dependency>
       <groupId>androidx.compose.material3</groupId>
       <artifactId>material3</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.9.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.6.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>Foo</groupId>
+      <artifactId>Modules</artifactId>
+      <version>unspecified</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "com.wd.foo.app-merged_res-39:/mipmap-xxhdpi-v4/ic_launcher.webp",
-        "source": "com.wd.foo.app-main-40:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.wd.foo.app-merged_res-53:/mipmap-xxhdpi-v4/ic_launcher_round.webp",
+        "source": "com.wd.foo.app-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.wd.foo.app-merged_res-39:/mipmap-xxhdpi-v4/ic_launcher_round.webp",
-        "source": "com.wd.foo.app-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.wd.foo.app-merged_res-53:/mipmap-xxhdpi-v4/ic_launcher.webp",
+        "source": "com.wd.foo.app-main-54:/mipmap-xxhdpi/ic_launcher.webp"
     }
 ]

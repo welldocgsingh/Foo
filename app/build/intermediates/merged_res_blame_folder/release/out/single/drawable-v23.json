@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v23/m3_tabs_background.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/drawable-v23/m3_tabs_background.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v23/m3_radiobutton_ripple.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/drawable-v23/m3_radiobutton_ripple.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v23/m3_selection_control_ripple.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/drawable-v23/m3_selection_control_ripple.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v23/mtrl_popupmenu_background_overlay.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/drawable-v23/mtrl_popupmenu_background_overlay.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v23/abc_control_background_material.xml",
+        "source": "com.wd.foo.app-appcompat-1.6.1-5:/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v23/m3_tabs_transparent_background.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/drawable-v23/m3_tabs_transparent_background.xml"
+    }
+]

@@ -3,7 +3,7 @@
   "component": {
     "group": "com.wd",
     "module": "foo",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -32,13 +32,13 @@
       ],
       "files": [
         {
-          "name": "foo-1.0.1.aar",
-          "url": "foo-1.0.1.aar",
-          "size": 41918,
-          "sha512": "03b0ecc9c50dae8533a7c7114b94ba84331563d0c2b542fc7740db3e0db7959c315af0e23531de0eb2bc007bce5f7754db37c0599f33d2bb1ca223501640bf4c",
-          "sha256": "e0913dbdfd049b54802b2f923659b89aa45f83a9ea44bd920966f26f6e1ef45c",
-          "sha1": "9f84a88b9977ec7fdd001232cd4f807f4f33ab03",
-          "md5": "ad17ee876d3694152a9be8a236967bfa"
+          "name": "foo-1.0.3.aar",
+          "url": "foo-1.0.3.aar",
+          "size": 42017,
+          "sha512": "5ce2e1ca8f4b859ea6512bb5cf2a467c4b074dc1e164312e5ec849bf122a40816cdedd4b0f51319364a7054c401ce14fcfd0fa43a7c09c3d6853bf8eb498ebd1",
+          "sha256": "e29cdd2a869d7631e1f81ab146c466a8a1c9529c905d11aa41a6ddced7c02902",
+          "sha1": "486c4c42093522f885d3a596859ac4c8f00b70fa",
+          "md5": "b203254abfa724ee9bf9fa9cdc2f0945"
         }
       ]
     },
@@ -50,13 +50,6 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "dependencies": [
-        {
-          "group": "androidx.core",
-          "module": "core-ktx",
-          "version": {
-            "requires": "1.9.0"
-          }
-        },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-ktx",
@@ -99,6 +92,41 @@
           "module": "material3"
         },
         {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "Foo",
+          "module": "Modules",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
@@ -108,13 +136,13 @@
       ],
       "files": [
         {
-          "name": "foo-1.0.1.aar",
-          "url": "foo-1.0.1.aar",
-          "size": 41918,
-          "sha512": "03b0ecc9c50dae8533a7c7114b94ba84331563d0c2b542fc7740db3e0db7959c315af0e23531de0eb2bc007bce5f7754db37c0599f33d2bb1ca223501640bf4c",
-          "sha256": "e0913dbdfd049b54802b2f923659b89aa45f83a9ea44bd920966f26f6e1ef45c",
-          "sha1": "9f84a88b9977ec7fdd001232cd4f807f4f33ab03",
-          "md5": "ad17ee876d3694152a9be8a236967bfa"
+          "name": "foo-1.0.3.aar",
+          "url": "foo-1.0.3.aar",
+          "size": 42017,
+          "sha512": "5ce2e1ca8f4b859ea6512bb5cf2a467c4b074dc1e164312e5ec849bf122a40816cdedd4b0f51319364a7054c401ce14fcfd0fa43a7c09c3d6853bf8eb498ebd1",
+          "sha256": "e29cdd2a869d7631e1f81ab146c466a8a1c9529c905d11aa41a6ddced7c02902",
+          "sha1": "486c4c42093522f885d3a596859ac4c8f00b70fa",
+          "md5": "b203254abfa724ee9bf9fa9cdc2f0945"
         }
       ]
     }

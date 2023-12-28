@@ -33,5 +33,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Foo"
 include(":app")
-//include(":Modules")
+include(":Modules")
 //include (":library")

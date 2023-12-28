@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/layout-land/material_timepicker.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/layout-land/material_timepicker.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/layout-land/mtrl_picker_header_dialog.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/layout-land/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/layout-land/material_clock_period_toggle_land.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/layout-land/material_clock_period_toggle_land.xml"
+    }
+]

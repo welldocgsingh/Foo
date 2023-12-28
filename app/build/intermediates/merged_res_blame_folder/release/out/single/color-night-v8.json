@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/color-night-v8/material_timepicker_button_stroke.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/color-night-v8/material_timepicker_button_stroke.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/color-night-v8/material_timepicker_modebutton_tint.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/color-night-v8/material_timepicker_modebutton_tint.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/color-night-v8/material_timepicker_clockface.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/color-night-v8/material_timepicker_clockface.xml"
+    }
+]

@@ -41,6 +41,14 @@
             endLine="4"
             endColumn="29"
             endOffset="126"/>
+        <location id="R.style.Base_Theme_CalcAndroid"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/themes.xml"
+            line="5"
+            column="12"
+            startOffset="136"
+            endLine="5"
+            endColumn="41"
+            endOffset="165"/>
         <location id="R.color.purple_200"
             file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
             line="3"
@@ -51,7 +59,15 @@
             endOffset="79"/>
         <entry
             name="model"
-            string="color[purple_200(D),black(D),teal_200(D),white(D),teal_700(D),purple_700(D),purple_500(D)],drawable[ic_launcher_foreground(U),ic_launcher_background(U),ic_launcher_foreground_1(R)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[app_name(U)],xml[data_extraction_rules(U),backup_rules(U)];7^9,a^8^7,b^8^7;;;"/>
+            string="color[purple_200(D),black(D),teal_200(D),white(D),teal_700(D),purple_700(D),purple_500(D)],drawable[ic_launcher_foreground(U),ic_launcher_background(U),ic_launcher_foreground_1(R)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[app_name(U)],style[Base_Theme_CalcAndroid(D),Theme_Material3_DayNight_NoActionBar(E),Theme_CalcAndroid(D)],xml[data_extraction_rules(U),backup_rules(U)];7^9,a^8^7,b^8^7,d^e,f^d;;;"/>
+        <location id="R.style.Theme_CalcAndroid"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/themes.xml"
+            line="10"
+            column="12"
+            startOffset="362"
+            endLine="10"
+            endColumn="36"
+            endOffset="386"/>
         <location id="R.color.teal_200"
             file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
             line="6"

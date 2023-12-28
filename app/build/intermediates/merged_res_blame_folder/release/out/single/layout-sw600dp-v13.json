@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

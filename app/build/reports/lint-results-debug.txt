@@ -20,7 +20,7 @@ D:\Foo\app\build.gradle.kts:27: Warning: Not targeting the latest versions of An
 
    https://developer.android.com/distribute/best-practices/develop/target-sdk.html
 
-D:\Foo\app\build.gradle.kts:77: Warning: A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.12.0 [GradleDependency]
+D:\Foo\app\build.gradle.kts:88: Warning: A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.12.0 [GradleDependency]
     implementation("androidx.core:core-ktx:1.9.0")
                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

@@ -30,12 +30,12 @@
             replacement="1.12.0"/>
         <location
             file="${:app*projectDir}/build.gradle.kts"
-            line="77"
+            line="88"
             column="21"
-            startOffset="1635"
-            endLine="77"
+            startOffset="2114"
+            endLine="88"
             endColumn="49"
-            endOffset="1663"/>
+            endOffset="2142"/>
     </incident>
 
 </incidents>

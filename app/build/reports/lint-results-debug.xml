@@ -31,7 +31,7 @@
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="D:\Foo\app\build.gradle.kts"
-            line="77"
+            line="88"
             column="21"/>
     </issue>
 

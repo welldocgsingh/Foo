@@ -11,5 +11,7 @@ drawable ic_launcher_foreground
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+style Base_Theme_CalcAndroid
+style Theme_CalcAndroid
 xml backup_rules
 xml data_extraction_rules

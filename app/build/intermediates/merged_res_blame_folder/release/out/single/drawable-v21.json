@@ -1,6 +1,34 @@
 [
     {
-        "merged": "com.wd.foo.app-merged_res-39:/drawable-v21/notification_action_background.xml",
-        "source": "com.wd.foo.app-core-1.9.0-35:/drawable-v21/notification_action_background.xml"
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v21/notification_action_background.xml",
+        "source": "com.wd.foo.app-core-1.9.0-48:/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "com.wd.foo.app-appcompat-1.6.1-5:/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v21/abc_dialog_material_background.xml",
+        "source": "com.wd.foo.app-appcompat-1.6.1-5:/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v21/mtrl_navigation_bar_item_background.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/drawable-v21/mtrl_navigation_bar_item_background.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v21/abc_edit_text_material.xml",
+        "source": "com.wd.foo.app-appcompat-1.6.1-5:/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v21/abc_list_divider_material.xml",
+        "source": "com.wd.foo.app-appcompat-1.6.1-5:/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v21/material_cursor_drawable.xml",
+        "source": "com.wd.foo.app-material-1.11.0-35:/drawable-v21/material_cursor_drawable.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-53:/drawable-v21/abc_btn_colored_material.xml",
+        "source": "com.wd.foo.app-appcompat-1.6.1-5:/drawable-v21/abc_btn_colored_material.xml"
     }
 ]
