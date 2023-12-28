@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-39:/mipmap-anydpi-v4/ic_launcher.xml",
+        "source": "com.wd.foo.app-main-40:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-39:/mipmap-anydpi-v4/ic_launcher_round.xml",
+        "source": "com.wd.foo.app-main-40:/mipmap-anydpi/ic_launcher_round.xml"
+    }
+]

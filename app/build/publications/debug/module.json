@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wd",
+    "module": "foo",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foo-1.0.1.aar",
+          "url": "foo-1.0.1.aar",
+          "size": 43150,
+          "sha512": "2d23c23b4c7b956c04d25cc79238cb87405b89d1c28315c2c13f91853182b0ca4edbd729fc855fe97131d816b9a749259379b44c0fe50d916d9dcc15b1d1b69a",
+          "sha256": "c31ca7ddd110475d0e785a1ad87d1f3e1753be14a9a816faabfdfc193858c014",
+          "sha1": "f4a03a405e16e9cab3b21db3c857aa65d5102092",
+          "md5": "2852507f33797e1522ac4b68458eb902"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2023.03.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foo-1.0.1.aar",
+          "url": "foo-1.0.1.aar",
+          "size": 43150,
+          "sha512": "2d23c23b4c7b956c04d25cc79238cb87405b89d1c28315c2c13f91853182b0ca4edbd729fc855fe97131d816b9a749259379b44c0fe50d916d9dcc15b1d1b69a",
+          "sha256": "c31ca7ddd110475d0e785a1ad87d1f3e1753be14a9a816faabfdfc193858c014",
+          "sha1": "f4a03a405e16e9cab3b21db3c857aa65d5102092",
+          "md5": "2852507f33797e1522ac4b68458eb902"
+        }
+      ]
+    }
+  ]
+}

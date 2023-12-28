@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-39:/xml/backup_rules.xml",
+        "source": "com.wd.foo.app-main-40:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-39:/xml/data_extraction_rules.xml",
+        "source": "com.wd.foo.app-main-40:/xml/data_extraction_rules.xml"
+    }
+]

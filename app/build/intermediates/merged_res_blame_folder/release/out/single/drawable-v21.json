@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-39:/drawable-v21/notification_action_background.xml",
+        "source": "com.wd.foo.app-core-1.9.0-35:/drawable-v21/notification_action_background.xml"
+    }
+]

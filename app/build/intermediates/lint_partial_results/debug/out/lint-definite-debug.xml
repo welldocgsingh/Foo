@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.2" type="incidents">
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 34"
+            oldString="33"
+            replacement="34"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="27"
+            column="9"
+            startOffset="467"
+            endLine="27"
+            endColumn="23"
+            endOffset="481"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="77"
+            column="21"
+            startOffset="1635"
+            endLine="77"
+            endColumn="49"
+            endOffset="1663"/>
+    </incident>
+
+</incidents>

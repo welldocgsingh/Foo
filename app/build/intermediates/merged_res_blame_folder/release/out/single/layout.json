@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.wd.foo.app-merged_res-39:/layout/notification_template_part_chronometer.xml",
+        "source": "com.wd.foo.app-core-1.9.0-35:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-39:/layout/notification_template_part_time.xml",
+        "source": "com.wd.foo.app-core-1.9.0-35:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.wd.foo.app-merged_res-39:/layout/custom_dialog.xml",
+        "source": "com.wd.foo.app-core-1.9.0-35:/layout/custom_dialog.xml"
+    }
+]
