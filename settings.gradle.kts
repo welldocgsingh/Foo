@@ -2,14 +2,14 @@ pluginManagement {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
         gradlePluginPortal()
+        jcenter()
         flatDir {
             dirs("libs")
         }
         maven("https://jitpack.io")
-
         maven("https://plugins.gradle.org/m2/")
-
         maven("https://maven.google.com")
     }
 }
@@ -21,17 +21,17 @@ dependencyResolutionManagement {
 
     repositories {
         google()
-
+        jcenter()
+        mavenLocal()
         gradlePluginPortal()
         mavenCentral()
         maven("https://jitpack.io")
         maven("https://plugins.gradle.org/m2/")
-
         maven("https://maven.google.com")
     }
 }
 
 rootProject.name = "Foo"
 include(":app")
-include(":Modules")
+//include(":Modules")
 //include (":library")

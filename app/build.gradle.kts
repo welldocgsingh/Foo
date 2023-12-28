@@ -13,12 +13,12 @@ android {
     namespace = "com.wd.foo"
     compileSdk = 34
 
-
-    publishing {
-        singleVariant("debug") {
-            withSourcesJar()
-        }
-    }
+//
+//    publishing {
+//        singleVariant("debug") {
+//            withSourcesJar()
+//        }
+//    }
 
 
     defaultConfig {
@@ -63,18 +63,18 @@ android {
 }
 
 
-
-// add the publication before the build even starts
-// used ./gradlew mymodule:assemble --dry-run to find where to put it
-afterEvaluate {
-    tasks.clean.dependsOn("publishToMavenLocal")
-    tasks.preBuild.dependsOn("publishToMavenLocal")
-}
+//
+//// add the publication before the build even starts
+//// used ./gradlew mymodule:assemble --dry-run to find where to put it
+//afterEvaluate {
+//    tasks.clean.dependsOn("publishToMavenLocal")
+//    tasks.preBuild.dependsOn("publishToMavenLocal")
+//}
 
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
+//    implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.8.2")
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
@@ -90,5 +90,22 @@ dependencies {
 //    debugImplementation("androidx.compose.ui:ui-tooling")
 //    debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-    implementation(project(mapOf("path" to ":Modules")))
+//    implementation(project(mapOf("path" to ":Modules")))
+
+
+}
+
+
+afterEvaluate {
+    android.libraryVariants.forEach {variant->
+
+        publishing.publications.create(variant.name , MavenPublication::class.java){
+            from(components.findByName(variant.name))
+            groupId = "com.wd"
+            artifactId= "foo"
+            version = "1.0.1"
+        }
+
+
+    }
 }
